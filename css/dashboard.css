@@ -1,0 +1,53 @@
+.body html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+}
+
+.dashboard_sidebar{
+    float: left;
+    width: 60px;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.689);
+    overflow: hidden;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -9px;
+
+
+
+}
+.dashboard_sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard_sidebar h1{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.dashboard_sidebar ul li{
+    list-style: none;
+}
+.dashboard_sidebar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    height: 55px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    transition: 0.6s;
+    
+}
+
+.dashboard_sidebar ul li a:hover{
+    background-color: rgba(240, 255, 255, 0.345);
+
+}
+
+
